@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+
+header {
+    background-color: teal;
+    width: 100vw;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    z-index: 2;
+}
+
+h1 {
+    font-family: Roboto;
+    color: darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 10px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 130px;
+    color: white;
+    border: 3px dotted;
+    border-radius: 15%;
+    margin: 50px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+p {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 145px;
+    height: 345;
+    float: right;
+    padding-top: 50px;
+}
+
+.Welcome {
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: moccasin;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    top: 50px;
+    position: relative;
+    top: 190px;
+    width: vw;
+    z-index: 1;
+}
+
+.Projects {
+    text-align: right;
+    padding-left: 400px;
+}
+
+.AboutMe {
+    padding-right: 400px;
+    text-align: left;
+}
+
+.Contact {
+    padding-right: 400px;
+}
