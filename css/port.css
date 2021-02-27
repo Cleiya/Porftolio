@@ -1,0 +1,206 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
+/* Test Animation */  
+  .animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+  }
+  .pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
+/* Fin Test Animation */
+
+
+/* Style - Éléments de base */
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1em;;
+}
+
+article {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: Dancing Script, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: moccasin;
+    min-height: 100vh;
+    display: block;
+}
+
+header {
+    border: 1px white dashed;
+    height: 150px;
+}
+
+li {
+    padding: 5px;
+}
+
+ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+main {
+    position: relative;
+    top: 190px;
+}
+
+
+/* Style Class */
+
+/* Flex Box */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+.container {
+    width: 800px;
+    height: 5em;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+
+.item {
+    padding: 10px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+.item a {
+        font-size: 1em;
+        color: black;
+        text-decoration: underline;
+}
+
+/* Fin Flex Box */
+
+
+/* Position text in the middle of the page/image */
+.presentation-txt{
+    /* Configuration box div */
+    border: white 1px dashed;
+    /* Configuration font */
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: darkcyan 1px 1px 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 40%;
+}
+
+/* Image de Présentation, div principal*/
+.presentation-img {
+    /* Insertion Background IMG et Background Color */
+    background-image: url(/img/BeltonTree.jpg);
+    background-color: moccasin;
+    /* Contrôler la répétition de l'image */
+    background-repeat: no-repeat;
+    /* Contrôler la position de l'image de fond */
+    background-position: center;
+    /* Ajuster les dimensions pour qu'elle soit responsive */
+    max-height: 327px;
+    width: auto;
+    padding: 65px;
+}
+
+.LinkPiskel {
+    width: 100px;
+    height: 0 auto;
+}
+
+.accessibility {
+position: absolute;
+left: -15000px;}
+
+
+/* Configuration Main Header - Cleiya's World */
+#mainHeader {
+    background-color: teal;
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    top: 0;
+}
+
+#mainHeader h1 {
+    font-family: Indie Flower, Verdana, Geneva, Tahoma, sans-serif;
+    color: moccasin;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 160px;
+    position: fixed;
+    margin-left: 15%;
+    margin-right: 0
+}
+
+/* Configuration MainNav */
+#mainNav {
+    width: 10%;
+    height: 160px;
+    background-color: teal;
+    text-align: center;
+    font-size: x-large;
+    border: 1px white solid;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+ul#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Configuration MainFooter */
+#mainFooter {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+
+
+
