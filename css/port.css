@@ -76,7 +76,7 @@ h2 {
     text-align: center;
 }
 .container {
-    width: 800px;
+    width: 80%;
     height: 5em;
     padding: 10px;
     justify-content: space-between;
@@ -99,6 +99,12 @@ h2 {
         font-size: 1em;
         color: black;
         text-decoration: underline;
+}
+
+.item img {
+    width: 80%;
+    height: auto;
+    vertical-align: middle;
 }
 
 /* Fin Flex Box */
@@ -160,19 +166,18 @@ left: -15000px;}
     font-size: 50px;
     font-weight: bolder;
     font-style: italic;
-    text-align: center;
     display: flex;
     align-items: center;
     width: auto;
-    height: 160px;
+    height: auto;
     position: fixed;
     margin-left: 15%;
-    margin-right: 0
+    padding-bottom: 15px;
 }
 
 /* Configuration MainNav */
 #mainNav {
-    width: 10%;
+    width: auto;
     height: 160px;
     background-color: teal;
     text-align: center;
@@ -180,6 +185,7 @@ left: -15000px;}
     border: 1px white solid;
     position: absolute;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 ul#nav {
